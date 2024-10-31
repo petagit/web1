@@ -1,0 +1,42 @@
+<style>
+    body {
+        font-family: monospace;
+        background-color: #aab0a8;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .ascii-art {
+        padding: 10px;
+        background-color: #ffffff;
+        border: 2px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: auto;
+        max-width: 95%;
+        max-height: 90%;
+        white-space: pre;
+    }
+    /* Add media query for mobile devices */
+    @media screen and (max-width: 768px) {
+        .ascii-art {
+            padding: 5px;
+            max-width: 98%;
+            max-height: 95%;
+            font-size: 0.8em;
+        }
+        
+        pre {
+            padding: 5px;
+        }
+    }
+    /* Add this new style */
+    pre {
+        background-color: #000000; /* Change this to any color you want */
+        color: #ffffff; /* Change text color to make it visible on dark background */
+        padding: 20px;
+        margin: 0;
+    }
+</style>
